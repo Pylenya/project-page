@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Iqo</title>
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <a class="header__logo" href="#"
+            ><img class="header__logo" src="./img/svg/logo.svg" alt="logo"
+          /></a>
+          <nav class="header__nav" data-nav>
+            <ul class="nav__list">
+              <li class="list__item">
+                <a class="item__link" href="#about">О нас</a>
+              </li>
+              <li class="list__item">
+                <a class="item__link" href="#services">Услуги</a>
+              </li>
+              <li class="list__item">
+                <a class="item__link" href="#project">Проекты</a>
+              </li>
+              <li class="list__item">
+                <a class="item__link" href="#reviews">Отзывы</a>
+              </li>
+              <li class="list__item">
+                <a class="item__link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+            <button class="btn btn-center btn-burger" type="submit">
+              Заказать проект
+            </button>
+          </nav>
+          <button
+            data-burger
+            class="burger"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+          >
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__box">
+          <div class="hero__text">
+            <h1 class="hero__title">Студия дизайна&nbsp;интерьера</h1>
+            <h2 class="hero__desc">
+              Создаем произведения, которые вдохновляют и доставляют
+              удовольствие
+            </h2>
+            <button class="btn btn-center" type="submit">
+              Заказать проект
+            </button>
+          </div>
+
+          <div class="hero__pic">
+            <img class="hero__img" src="./img/hero/hero__pic.png" alt="pic" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__title">
+          <h2>О нас</h2>
+        </div>
+        <div class="about__box">
+          <div class="about__left">
+            <div class="about__desc">
+              <p class="p__desc">
+                Компания IQO.art оказывает обширный спектр услуг в сфере дизайна
+                интерьера, строительство и архитектуры для всех видов помещений.
+              </p>
+              <p class="p__desc">
+                Наша команда - это опытные дизайнеры и архитекторы, создающие
+                архитектурные объекты любой сложности.
+              </p>
+              <p class="p__desc">
+                Мы идем в ногу со временем, оказываем услуги по новейшим
+                технологиям смелыми решениями.
+              </p>
+            </div>
+
+            <div class="about__achievements">
+              <div class="achievements__img">
+                <img
+                  class="achievments-pic"
+                  src="./img/svg/calendar.svg"
+                  alt="Опыт"
+                />
+              </div>
+              <div class="achievements__text">
+                <h3 class="achievements__title">Большой опты разработки</h3>
+                <p class="achievements__desc">
+                  Нами реализованно более 100 дизайн-проектов в жилых комплексах
+                  и загородных домах.
+                </p>
+              </div>
+            </div>
+            <div class="about__achievements">
+              <div class="achievements__img">
+                <img
+                  class="achievments-pic"
+                  src="./img/svg/glasses.svg"
+                  alt="Визуализация"
+                />
+              </div>
+              <div class="achievements__text">
+                <h3 class="achievements__title">Наглядная демонстрация</h3>
+                <p class="achievements__desc">
+                  Мы предоставим возможность “прогуляться” по будущим
+                  апартаментам еще до начала строительства в очках виртуальной
+                  реальности.
+                </p>
+              </div>
+            </div>
+            <div class="about__achievements">
+              <div class="achievements__img">
+                <img
+                  class="achievments-pic"
+                  src="./img/svg/hand.svg"
+                  alt="Полный цикл"
+                />
+              </div>
+              <div class="achievements__text">
+                <h3 class="achievements__title">Студия полного цикла</h3>
+                <p class="achievements__desc">
+                  Мы не только разрабатываем, но и реализуем дизайн-проекты. От
+                  заявки и до финального штриха.Вам не придется искать
+                  дополнительных подрядчиков и беспокоиться о закупах.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about__right">
+            <img class="img__one" src="./img/about/foto.jpg" alt="О нас" />
+            <img class="img__two" src="./img/about/foto_2.jpg" alt="О нас" />
+            <img class="img__tre" src="./img/about/foto_3.jpg" alt="О нас" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="services__title">
+          <h3>Услуги</h3>
+        </div>
+        <div class="services__cards">
+          <!-- FIRST CARD -->
+          <div class="services__card">
+            <div class="front">
+              <img
+                class="card__img"
+                src="./img/services/design.jpg"
+                alt="интерьер"
+              />
+              <div class="card__text">
+                <div class="card__title">
+                  <h4>Дизайн интерьера</h4>
+                </div>
+                <div class="card__desc">
+                  <p>
+                    Индивидульный дизайн, основанный на предпочтениях заказчика
+                    и проработанный до мельчайших нюансов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__title">
+                <h4>Дизайн интерьера</h4>
+              </div>
+              <div class="back__desc">
+                <p>
+                  Индивидульный дизайн, основанный на предпочтениях заказчикаи
+                  проработанный до мельчайших нюансов.
+                </p>
+              </div>
+              <div class="back__benefits">
+                <ol class="back__list">
+                  <li class="back__list-item">Дизайн интерьера</li>
+                  <li class="back__list-item">Качество реализации</li>
+                  <li class="back__list-item">Освещение</li>
+                  <li class="back__list-item">Эргономика и зонирование</li>
+                  <li class="back__list-item">Практичность</li>
+                  <li class="back__list-item">И другие аспекты</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- SECOND CARD -->
+
+          <div class="services__card">
+            <div class="front">
+              <img
+                class="card__img"
+                src="./img/services/engineering.jpg"
+                alt="проектирование"
+              />
+              <div class="card__text">
+                <div class="card__title">
+                  <h4>Инженерное проектирование</h4>
+                </div>
+                <div class="card__desc">
+                  <p>
+                    Процесс составления описания, необходимого для создания еще
+                    несуществующего объекта.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__title">
+                <h4>Инженерное проектирование</h4>
+              </div>
+              <div class="back__desc">
+                <p>
+                  Процесс составления описания, необходимого для создания еще
+                  несуществующего объекта.
+                </p>
+              </div>
+              <div class="back__benefits">
+                <ol class="back__list">
+                  <li class="back__list-item">Дизайн интерьера</li>
+                  <li class="back__list-item">Качество реализации</li>
+                  <li class="back__list-item">Освещение</li>
+                  <li class="back__list-item">Эргономика и зонирование</li>
+                  <li class="back__list-item">Практичность</li>
+                  <li class="back__list-item">И другие аспекты</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- THIRD CARD -->
+
+          <div class="services__card">
+            <div class="front">
+              <img
+                class="card__img"
+                src="./img/services/vent.jpg"
+                alt="вентиляция"
+              />
+              <div class="card__text">
+                <div class="card__title">
+                  <h4>Проектирование систем вентиляции</h4>
+                </div>
+                <div class="card__desc">
+                  <p>
+                    Индивидульный дизайн систем кондиционерования, основанный на
+                    предпочтениях заказчика и проработанный до мельчайших
+                    нюансов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__title">
+                <h4>Проектирование систем вентиляции</h4>
+              </div>
+              <div class="back__desc">
+                <p>
+                  Индивидульный дизайн систем кондиционерования, основанный на
+                  предпочтениях заказчика и проработанный до мельчайших нюансов.
+                </p>
+              </div>
+              <div class="back__benefits">
+                <ol class="back__list">
+                  <li class="back__list-item">Дизайн интерьера</li>
+                  <li class="back__list-item">Качество реализации</li>
+                  <li class="back__list-item">Освещение</li>
+                  <li class="back__list-item">Эргономика и зонирование</li>
+                  <li class="back__list-item">Практичность</li>
+                  <li class="back__list-item">И другие аспекты</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- FOURTH CARD -->
+
+          <div class="services__card">
+            <div class="front">
+              <img
+                class="card__img"
+                src="./img/services/facade.jpg"
+                alt="фасады"
+              />
+              <div class="card__text">
+                <div class="card__title">
+                  <h4>Дизайн фасада(экстерьера)</h4>
+                </div>
+                <div class="card__desc">
+                  <p>
+                    Внешний дизайн загородных домов и коттеджей. Оформление
+                    зданий и архетиктурный вид.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__title">
+                <h4>Дизайн фасада(экстерьера)</h4>
+              </div>
+              <div class="back__desc">
+                <p>
+                  Внешний дизайн загородных домов и коттеджей. Оформление зданий
+                  и архетиктурный вид.
+                </p>
+              </div>
+              <div class="back__benefits">
+                <ol class="back__list">
+                  <li class="back__list-item">Дизайн интерьера</li>
+                  <li class="back__list-item">Качество реализации</li>
+                  <li class="back__list-item">Освещение</li>
+                  <li class="back__list-item">Эргономика и зонирование</li>
+                  <li class="back__list-item">Практичность</li>
+                  <li class="back__list-item">И другие аспекты</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- FIFTH CARD -->
+
+          <div class="services__card">
+            <div class="front">
+              <img
+                class="card__img"
+                src="./img/services/landscape.jpg"
+                alt="ландшафт"
+              />
+              <div class="card__text">
+                <div class="card__title">
+                  <h4>Ландшафтный дизайн</h4>
+                </div>
+                <div class="card__desc">
+                  <p>
+                    Обустройство садовых, парковых и приусадебных участков.
+                    Направленный на изменение внешнего вида территориис
+                    использованием природных компонентов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__title">
+                <h4>Ландшафтный дизайн</h4>
+              </div>
+              <div class="back__desc">
+                <p>
+                  Обустройство садовых, парковых и приусадебных участков.
+                  Направленный на изменение внешнего вида территориис
+                  использованием природных компонентов.
+                </p>
+              </div>
+              <div class="back__benefits">
+                <ol class="back__list">
+                  <li class="back__list-item">Дизайн интерьера</li>
+                  <li class="back__list-item">Качество реализации</li>
+                  <li class="back__list-item">Освещение</li>
+                  <li class="back__list-item">Эргономика и зонирование</li>
+                  <li class="back__list-item">Практичность</li>
+                  <li class="back__list-item">И другие аспекты</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIXTH CARD -->
+
+          <div class="services__card">
+            <div class="front">
+              <img
+                class="card__img"
+                src="./img/services/trc.jpg"
+                alt="торговый центр"
+              />
+              <div class="card__text">
+                <div class="card__title">
+                  <h4>Коммерческий дизайн</h4>
+                </div>
+                <div class="card__desc">
+                  <p>
+                    Проектирование торгового или офисного помещения с учетом
+                    разных функций и бюджетов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__title">
+                <h4>Коммерческий дизайн</h4>
+              </div>
+              <div class="back__desc">
+                <p>
+                  Проектирование торгового или офисного помещения с учетом
+                  разных функций и бюджетов.
+                </p>
+              </div>
+              <div class="back__benefits">
+                <ol class="back__list">
+                  <li class="back__list-item">Дизайн интерьера</li>
+                  <li class="back__list-item">Качество реализации</li>
+                  <li class="back__list-item">Освещение</li>
+                  <li class="back__list-item">Эргономика и зонирование</li>
+                  <li class="back__list-item">Практичность</li>
+                  <li class="back__list-item">И другие аспекты</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="project__title">
+          <h4>Проекты</h4>
+        </div>
+        <div class="project__sliders">
+          <div class="project-slide">
+            <div class="project__box">
+              <div class="project__left">
+                <div class="project__left-title">
+                  <h5>Частный дом в Центральном районе</h5>
+                </div>
+                <div class="project__left-desc">
+                  <p>
+                    Проект разработан для семьи из трех человек. Одним из
+                    главных пожеланий клиентов было разместить кухню на 1 этаже
+                    и сделать интерьер максимально удобным ввиду небольшой
+                    площади.
+                  </p>
+                </div>
+                <div class="project__left-features">
+                  <div class="left__feature">
+                    <img
+                      class="feature__pic"
+                      src="./img/svg/project/project__1.svg"
+                      alt="pic"
+                    />
+                    <span class="left__desc">Площадь: 94 кв.м</span>
+                  </div>
+                  <div class="left__feature">
+                    <img
+                      class="feature__pic"
+                      src="./img/svg/project/project__2.svg"
+                      alt="pic"
+                    />
+                    <span class="left__desc">Кол-во комнат: 3 шт</span>
+                  </div>
+                  <div class="left__feature">
+                    <img
+                      class="feature__pic"
+                      src="./img/svg/project/project__3.svg"
+                      alt="pic"
+                    />
+                    <span class="left__desc">Стиль: Современный</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project__right">
+                <div class="right__box">
+                  <img
+                    class="right__box-pic"
+                    src="./img/projects/project__1.jpg"
+                    alt="pic"
+                  />
+                  <img
+                    class="right__box-pic project-first"
+                    src="./img/projects/project__2.jpg"
+                    alt="pic"
+                  />
+
+                  <img
+                    class="right__box-pic"
+                    src="./img/projects/project__3.jpg"
+                    alt="pic"
+                  />
+
+                  <img
+                    class="right__box-pic"
+                    src="./img/projects/project__4.jpg"
+                    alt="pic"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-slide">
+            <div class="project__box">
+              <div class="project__left">
+                <div class="project__left-title">
+                  <h5>Однокомнатная квартира в новом ЖК</h5>
+                </div>
+                <div class="project__left-desc">
+                  <p>
+                    Проект разработан для небольшой семьи из 2 человек. Главным
+                    критерием был скандинавский дизайн интерьера.
+                  </p>
+                </div>
+                <div class="project__left-features">
+                  <div class="left__feature">
+                    <img
+                      class="feature__pic"
+                      src="./img/svg/project/project__1.svg"
+                      alt="pic"
+                    />
+                    <span class="left__desc">Площадь: 46 кв.м</span>
+                  </div>
+                  <div class="left__feature">
+                    <img
+                      class="feature__pic"
+                      src="./img/svg/project/project__2.svg"
+                      alt="pic"
+                    />
+                    <span class="left__desc">Кол-во комнат: 1 шт</span>
+                  </div>
+                  <div class="left__feature">
+                    <img
+                      class="feature__pic"
+                      src="./img/svg/project/project__3.svg"
+                      alt="pic"
+                    />
+                    <span class="left__desc">Стиль: Скандинавский</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project__right">
+                <div class="right__box">
+                  <img
+                    class="right__box-pic"
+                    src="./img/projects/pr2/pic1.jpg"
+                    alt="pic"
+                  />
+                  <img
+                    class="right__box-pic"
+                    src="./img/projects/pr2/pic2.jpg"
+                    alt="pic"
+                  />
+
+                  <img
+                    class="right__box-pic"
+                    src="./img/projects/pr2/pic3.jpg"
+                    alt="pic"
+                  />
+
+                  <img
+                    class="right__box-pic project-second"
+                    src="./img/projects/pr2/pic4.jpg"
+                    alt="pic"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="forms" class="forms">
+      <div class="container">
+        <div class="form__box">
+          <form class="form">
+            <div class="form__title">
+              <h4>Давайте обсудим ваш проект дизайна интерьера</h4>
+            </div>
+            <span class="form__desc"
+              >Оставьте заявку и мы свяжемся с вами в ближайшее время</span
+            >
+            <input class="input" type="text" placeholder="Имя" />
+            <input class="input" type="email" placeholder="Электронная почта" />
+            <input class="input" type="tel" placeholder="Телефон" />
+            <button class="btn form-btn">Отправить</button>
+          </form>
+          <img class="form__img" src="./img/form/form.jpg" alt="заявка" />
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <div class="reviews__title">
+          <h4>Отзывы</h4>
+        </div>
+
+        <div class="review__slides">
+          <div class="review__slide">
+            <div class="slide__box">
+              <div class="slide__title">
+                <img class="user" src="./img/insta/user.png" alt="user" />
+                <h5 class="user__name">Алёна</h5>
+              </div>
+              <div class="slide__text">
+                <p>
+                  Обратились к Дане с запросом по созданию дизайн проекта для
+                  шоурума. Получили отличный проект, которые максимально
+                  отображает концепцию и суть бренда, но также максимально
+                  эффективно использует пространство помещения. Довольны🙂
+                </p>
+              </div>
+              <div class="slide__date">
+                <p>Опубликовано: 28 дек 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="review__slide">
+            <div class="slide__box">
+              <div class="slide__title">
+                <img class="user" src="./img/insta/user.png" alt="user" />
+                <h5 class="user__name">Максим З.</h5>
+              </div>
+              <div class="slide__text">
+                <p>
+                  Спасибо большое за предоставленные услуги, всё сделали чётко и
+                  быстро. Будем обращаться ещё!
+                </p>
+              </div>
+              <div class="slide__date">
+                <p>Опубликовано: 6 января 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="review__slide">
+            <div class="slide__box">
+              <div class="slide__title">
+                <img class="user" src="./img/insta/user.png" alt="user" />
+                <h5 class="user__name">Александр</h5>
+              </div>
+              <div class="slide__text">
+                <p>
+                  Заказывали дизайн фасада на наш новый участок, всё очень
+                  понравилось, отличный сервис! Хочу отдельно поблагодарить
+                  Леонида за полную консультацию по любым вопросам.
+                </p>
+              </div>
+              <div class="slide__date">
+                <p>Опубликовано: 30 мая 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn review__btn" href="https://otzovik.com/" target="_blank"
+          >Смотреть ещё
+        </a>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <div class="contacts__title">
+          <h4>Контакты</h4>
+        </div>
+      </div>
+      <div class="contact__bg">
+        <div class="container">
+          <div class="contact__box">
+            <div class="contact__img">
+              <img
+                class="contact__pic"
+                src="./img/contacts/contact.jpg"
+                alt="pic"
+              />
+            </div>
+            <div class="contact__text">
+              <div class="text__box">
+                <div class="contact__adress">
+                  <h6 class="adress__title">Адрес:</h6>
+                  <span class="adress__text"
+                    >ул. Бундурина, 43, Тула, Тульская обл., 2 этаж, кабинет
+                    202</span
+                  >
+                </div>
+                <div class="contact__time">
+                  <h6 class="time__title">Часы работы:</h6>
+                  <div class="time__text">
+                    <p>пн-вт: 09:00 - 20:00</p>
+                    <p>сб-вс: по договоренности</p>
+                  </div>
+                </div>
+                <div class="contact__tel">
+                  <h6 class="tel__title">Телефон:</h6>
+                  <span
+                    ><a class="telephone" href="tel:+79005553535"
+                      >+7 900 555 35 35</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <div class="logo__box">
+            <div class="footer__left">
+              <img class="footer__logo" src="./img/svg/logo.svg" alt="logo" />
+              <a class="footer__politics" href="#!">
+                <span>Политика конфиденциальности</span>
+              </a>
+            </div>
+            <ul class="footer__list">
+              <li class="footer__list-item item-title">Меню</li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#about">О нас</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#services">Услуги</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#project">Проекты</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#reviews">Отзывы</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__soc">
+            <div class="soc__text">
+              <ul>
+                <li class="footer__soc-item">
+                  <a class="footer__list-link item-title" href="#forms"
+                    >Свяжитесь с нами</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="soc__pics">
+              <ul class="soc__list">
+                <li class="footer__soc-item">
+                  <a class="footer__soc-link" href="#">
+                    <img
+                      class="svg__img"
+                      src="./img/svg/contact/insta.svg"
+                      alt="инстаграм"
+                    />
+                    <span class="soc__span">Instagram</span>
+                  </a>
+                </li>
+                <li class="footer__soc-item">
+                  <a class="footer__soc-link" href="#">
+                    <img
+                      class="svg__img"
+                      src="./img/svg/contact/youtube.svg"
+                      alt="ютуб"
+                    />
+                    <span class="soc__span">Instagram</span>
+                  </a>
+                </li>
+                <li class="footer__soc-item">
+                  <a class="footer__soc-link" href="#">
+                    <img
+                      class="svg__img"
+                      src="./img/svg/contact/facebook.svg"
+                      alt="фейсбук"
+                    />
+                    <span class="soc__span">Instagram</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <span>© 2022 IQo Art</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
